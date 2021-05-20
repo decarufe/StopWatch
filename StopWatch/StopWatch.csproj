@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Chrono.cs" />
+    <Compile Remove="Clock.cs" />
+    <Compile Remove="IClock.cs" />
+  </ItemGroup>
+
+</Project>
